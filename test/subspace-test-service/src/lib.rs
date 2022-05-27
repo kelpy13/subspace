@@ -54,7 +54,7 @@ pub fn new_full(
     enable_rpc_extensions: bool,
     run_farmer: bool,
 ) -> (
-    NewFull<Client>,
+    NewFull<Client, Client>,
     NativeElseWasmExecutor<TestExecutorDispatch>,
 ) {
     let config = SubspaceConfiguration {
@@ -230,7 +230,7 @@ pub struct SubspaceTestNode {
     /// `RPCHandlers` to make RPC queries.
     pub rpc_handlers: RpcHandlers,
     /// Transaction pool.
-    pub transaction_pool: Arc<FullPool<Block, Client>>,
+    pub transaction_pool: Arc<FullPool<Block, Client, Client>>,
 }
 
 impl SubspaceTestNode {
