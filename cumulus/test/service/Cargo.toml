@@ -36,7 +36,6 @@ sp-keyring = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee
 sp-inherents = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sp-timestamp = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
-sp-trie = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 substrate-test-client = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 
 cirrus-client-executor = { path = "../../client/cirrus-executor" }

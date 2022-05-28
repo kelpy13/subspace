@@ -1046,7 +1046,6 @@ dependencies = [
  "sp-keyring",
  "sp-runtime",
  "sp-timestamp",
- "sp-trie",
  "subspace-runtime-primitives",
  "subspace-service",
  "subspace-test-client",
