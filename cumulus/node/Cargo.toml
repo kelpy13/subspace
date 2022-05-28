@@ -71,6 +71,7 @@ cirrus-primitives = { path = "../primitives" }
 # Subspace dependencies
 sp-executor = { path = "../../crates/sp-executor" }
 subspace-core-primitives = { path = "../../crates/subspace-core-primitives" }
+subspace-runtime-primitives = { path = "../../crates/subspace-runtime-primitives" }
 
 [build-dependencies]
 substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
