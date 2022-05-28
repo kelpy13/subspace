@@ -28,7 +28,6 @@ sc-network = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee
 sc-rpc = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sc-service = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sc-tracing = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
-sc-utils = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sc-transaction-pool = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sp-arithmetic = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 sp-blockchain = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
@@ -40,11 +39,8 @@ sp-timestamp = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4
 sp-trie = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 substrate-test-client = { git = "https://github.com/paritytech/substrate", rev = "5d3e7c4ee9f5c8e370022d5f3fa9723185710831" }
 
-# RPC related dependencies
-jsonrpsee = { version = "0.13.1", features = ["server"] }
-
 cirrus-client-executor = { path = "../../client/cirrus-executor" }
-cirrus-client-executor-gossip = { path = "../../client/executor-gossip" }
+cirrus-node = { path = "../../node" }
 cirrus-test-runtime = { path = "../runtime" }
 cumulus-client-consensus-relay-chain = { path = "../../client/consensus/relay-chain" }
 
